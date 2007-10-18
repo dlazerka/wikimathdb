@@ -1,0 +1,10 @@
+<module>
+
+	<inherits name='com.google.gwt.user.User'/>
+	<inherits name="com.google.gwt.i18n.I18N"/>
+
+	<entry-point class='org.wikimathdb.web.gwt.client.Main'/>
+
+	<source path="client"/>
+	<public path="public"/><!-- only for development in hosted mode -->
+</module>

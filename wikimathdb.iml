@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module relativePaths="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="gwt" name="GWT">
+      <configuration>
+        <setting name="gwtSdkUrl" value="file://$MODULE_DIR$/lib" />
+        <setting name="gwtPath" value="C:\usr\work\self\wikimathdb\lib" />
+        <setting name="gwtScriptOutputStyle" value="DETAILED" />
+        <setting name="runGwtCompilerOnMake" value="true" />
+        <setting name="compilerMaxHeapSize" value="128" />
+        <packaging>
+          <module name="org.wikimathdb.web.gwt.Main" path="/org.wikimathdb.web.gwt.Main" />
+          <module name="webapp.org.wikimathdb.web.gwt.Main" path="/webapp.org.wikimathdb.web.gwt.Main" />
+        </packaging>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" optional="false" version="2.4" />
+          <deploymentDescriptor url="file://$MODULE_DIR$/web/META-INF/context.xml">
+            <option name="DEFAULT_DIR" value="META-INF" />
+          </deploymentDescriptor>
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/web" relative="/" />
+        </webroots>
+        <building>
+          <setting name="EXPLODED_URL" value="file://" />
+          <setting name="EXPLODED_ENABLED" value="false" />
+          <setting name="JAR_URL" value="file://" />
+          <setting name="JAR_ENABLED" value="false" />
+          <setting name="BUILD_MODULE_ON_FRAME_DEACTIVATION" value="false" />
+          <setting name="BUILD_EXTERNAL_DEPENDENCIES" value="false" />
+          <setting name="EXCLUDE_EXPLODED_DIRECTORY" value="true" />
+          <setting name="RUN_JASPER_VALIDATION" value="true" />
+          <setting name="BUILD_ONLY_WEB_RESOURCES" value="false" />
+        </building>
+        <packaging>
+          <containerElement type="module" name="wikimathdb">
+            <attribute name="method" value="0" />
+            <attribute name="URI" value="/WEB-INF/classes" />
+          </containerElement>
+          <containerElement type="library" name="Tomcat 6" level="application_server_libraries">
+            <attribute name="method" value="0" />
+            <attribute name="URI" value="&lt;N/A&gt;" />
+          </containerElement>
+          <containerElement type="library" name="devel" level="module">
+            <attribute name="method" value="0" />
+            <attribute name="URI" value="&lt;N/A&gt;" />
+          </containerElement>
+          <containerElement type="library" name="web" level="module">
+            <attribute name="method" value="0" />
+            <attribute name="URI" value="&lt;N/A&gt;" />
+          </containerElement>
+        </packaging>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/web/WEB-INF/classes" />
+    <exclude-output />
+    <output-test url="file://$MODULE_DIR$/classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/webapp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="devel">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/gwt-user.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/lib/gwt-user.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="web">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/gwt-servlet.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/hibernate-annotations.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/jta.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/commons-logging-1.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/cglib-2.2_beta1.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/asm-2.2.3.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/commons-collections-3.2.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/ejb3-persistence.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/antlr-2.7.6.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/hibernate3.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/log4j-1.2.11.jar!/" />
+          <root url="jar://$MODULE_DIR$/web/WEB-INF/lib/dom4j-1.6.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/lib/gwt-user.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="Tomcat 6" level="application_server_libraries" />
+    <orderEntryProperties />
+  </component>
+</module>
+
