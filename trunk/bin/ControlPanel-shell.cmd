@@ -1,1 +1,0 @@
-start javaw -cp "%~dp0../src;%~dp0../lib/gwt-user.jar;%~dp0../lib/gwt-dev-windows.jar" com.google.gwt.dev.GWTShell -out "%~dp0/.gwt-cache" %* org.wikimathdb.web.gwt.Main/Main.html
