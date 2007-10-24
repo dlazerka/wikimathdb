@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<profiles>
+		<profile>
+			<activation>
+				<os>
+					<family>windows</family>
+				</os>
+			</activation>
+			<id>gwt-windows-1.4.60</id>
+			<properties>
+				<google.webtoolkit.home>lib/gwt-windows-1.4.60</google.webtoolkit.home>
+			</properties>
+		</profile>
+		<profile>
+			<activation>
+				<os>
+					<family>mac</family>
+				</os>
+			</activation>
+			<id>gwt-mac-1.4.60</id>
+			<properties>
+				<google.webtoolkit.home>lib/gwt-mac-1.4.60</google.webtoolkit.home>
+				<google.webtoolkit.extrajvmargs>-XstartOnFirstThread</google.webtoolkit.extrajvmargs>
+			</properties>
+		</profile>
+	</profiles>
+	<activeProfiles>
+		<activeProfile>gwt-windows-1.4.60</activeProfile>
+	</activeProfiles>
+</settings>
