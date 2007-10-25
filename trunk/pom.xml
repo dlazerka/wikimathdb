@@ -31,12 +31,12 @@
 						<compileTarget>org.wikimathdb.web.gwt.Main</compileTarget>
 					</compileTargets>
 					<logLevel>INFO</logLevel>
-					<runTarget>org.wikimathdb.web.gwt/index.jsp</runTarget>
+					<runTarget>org.wikimathdb.web.gwt.Main/Main.html</runTarget>
 				</configuration>
 				<executions>
 					<execution>
 						<goals>
-							<!--<goal>mergewebxml</goal>-->
+							<goal>mergewebxml</goal>
 							<goal>compile</goal>
 						</goals>
 					</execution>
@@ -58,12 +58,6 @@
 			<url>http://gwt-maven.googlecode.com/svn/trunk/mavenrepo</url>
 		</pluginRepository>
 	</pluginRepositories>
-	<repositories>
-		<repository>
-			<id>gwt-maven</id>
-			<url>http://gwt-maven.googlecode.com/svn/trunk/mavenrepo/</url>
-		</repository>
-	</repositories>
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -81,7 +75,10 @@
 			<groupId>com.google.gwt</groupId>
 			<artifactId>gwt-user</artifactId>
 			<version>1.4.60</version>
-			<scope>provided</scope>
+			<!-- TODO: set scope to "provided" as the gwt-maven development team will have fixed the issue
+				http://code.google.com/p/gwt-maven/issues/detail?id=64 
+			-->
+			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.google.gwt</groupId>
