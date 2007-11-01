@@ -1,0 +1,201 @@
+\documentclass{article}
+\usepackage{amssymb,latexsym,amsmath}
+
+\title {WikiMathDB Idea Description}
+\author{Dzmitry Lazerka}
+\date{2007-11-01}
+
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+Idea of the WikiMathDB project was born while trying to understand a
+mathematical proof while lot of theories were involved and lot of
+"obvious" facts were omitted. Then I imagined: was there any way to
+store the proof so detailed, that even computer can understand it?
+The more I thought about it, the more I convinced of technical
+possibility to build a computer system which goal is to contain
+proofs in very detailed form; so detailed, that even computer can
+check it. So, everyone can view at the proof in more detail. And
+allow everyone to add his own theories. And provide different views
+for various languages and terminologies. So, the idea was born.\\
+
+Who needs in the WikiMathDB system? What the purpose of it?
+
+At first, for educational purposes: if some student cannot
+understand something "obvious" or forget a well-known thing, he
+always can look in the WikiMathDB for explanation. Also, teacher can
+add parts of his course to help students to understand it.
+
+At second, for science purposes: while development of a new branch
+of mathematics, scientists may include their work to the system to
+avoid explanation while presenting his work to anybody.\\
+
+Yet another artificial intelligence?
+
+No. The system aims to be a DataBase. There is a wide range of
+computing tools, automated theorem provers. WikiMathDB is not one of
+them. WikiMathDB's responsibilities is storing and explaining, not
+evaluation. There also is a huge number of computer-aided math
+libraries, WikiMathDB differs from them by containing the logical
+consistency, in the way how author thought.
+
+\newpage
+
+\section{Examples}
+
+{\bf Example 1 (elementary)}.\\
+
+\hrule\bigskip
+
+{\bf Given}: $B \subset A, b \in B$, so $b \in A$.\\
+
+\hrule\bigskip
+
+Why "so"? Maybe in some theories it is not true? Here I can ask the
+WikiMathDB to explain me why (by, for example, ctrl-clicking on the
+word "so"). And get the answer based on definition of the subset
+operator:
+$$(B \subset A) \Leftrightarrow (\forall b \in B \Rightarrow b \in
+A)$$ This answer is based on definition of \textit{subset}:
+$$\forall X,Y - sets \Rightarrow [X \subset Y) \Leftrightarrow
+(\forall x \in X \Rightarrow x \in Y)]$$ Where $B$ can be placed on
+the place of $X$, $A$ --- on the place of $Y$, and $b$ --- on the
+place of $x$.
+\\
+
+{\bf Example 2}.\\
+
+\hrule\bigskip
+
+{\bf Given}: \textbf{Basis} is a \textit{linearly
+independent} \textit{spanning set}.\\
+
+\hrule\bigskip
+
+Having read this, one may want to know, what do they mean while
+talking "linearly independent" and "spanning set"? By ctrl-clicking
+on these terms he can get the definitions of the terms. Here
+WikiMathDB can make an easy translation from English to math: "is\
+a"$\ \rightarrow\; "\in"$, so, this definition will be in form:
+$$
+\forall b \in B \Rightarrow (b \in L \wedge b \in S)
+$$
+Where L is a set of linearly independent vector sets, and S --- of
+spanning sets. Asking the system what does spanning set mean gives
+the definition of the spanning set itself.
+
+But, you should notice that here we omitted the field in which
+"basis" is defining: subspace and vector space. Because "basis" will
+be used if form "basis of the subspace M in vector space V".
+Omitting these these details is not allowed in the WikiMathDB. The
+details like that make possible to fully understand matter by
+computer. So, writing a definition like for "basis", author should
+consider these details while adding anything to the WikiMathDB.
+\\
+\newpage
+
+{\bf Example 3 (more comprehensive)}.
+
+Let's look at one solution in field of probability theory,
+characteristic functions:\\
+
+\hrule\bigskip
+
+{\bf Given}: Random variable $\xi$ has the Couchy distribution
+$$
+p_{\xi}(x) = \frac{1}{\pi} \frac{a}{a^2 + x^2}
+$$
+
+{\bf Problem}: Find the characteristic function for $\xi$.
+
+{\bf Solution}:
+$$
+f_{\xi}(t) = \frac{a}{\pi} \int_{-\infty}^\infty e^{itx}
+\frac{dt}{x^2 + a^2} = \frac{a}{\pi} \int_{-\infty}^\infty
+\frac{cos(t x)}{x^2 + a^2}dt
+$$
+
+Notice that $f_\xi(t)$ -- even function, so we only need to know its
+values for $t>0$. Let us differentiate both sides of the last
+equation, we'll get:
+
+$$
+f_{\xi}(t) = \frac{a}{\pi} \int_{-\infty}^\infty \frac{-x\ sin(t x)}
+{x^2 + a^2}dt \eqno{(1)}
+$$
+
+It is known from the math analysis that
+
+$$\int_{-\infty}^\infty \frac{sin(t x)}{x}dx = \pi
+\parbox{4em}{\hspace{1em}, so\hfill} a= \frac{a}{\pi}\int_{-\infty}^\infty \frac{sin(t
+x)}{x}dx\eqno{(2)}$$
+
+
+Summarizing (1) and (2), we'll get
+
+Let us differentiate both sides by $t$. We get $f''_\xi(t) = a^2
+f_\xi(t)$. So, $f_\xi(t) = c_1 e^{at} + c_2 e^{-at}$, $t>0$. Because
+of $f_\xi(t)$ -- bounded function on $\mathbb{R}$, then $c_1 = 0$,
+and, basing on property $f_\xi(0) = 1$, get $c_2 = 1$. So, while $t
+> 0 \; $ $\; f_\xi(t) = e^{-at}$, but taking consideration of the function
+eveness, finally get $f_\xi(t) = e^{-a|t|}$, $t \in \mathbb{R}$.\\
+
+\hrule\bigskip
+
+Here we see a lot of hidden things: starting from definition of
+characteristic function and ending with differentiation of improper
+parametrized integral by parameter, along with on-the-fly solve of
+Euler's differential equation. There are wasting a reader's time if
+the reader wants to check (or understand) the solution. It is good
+if reader is always a genius, but if he isn't? With the help of
+WikiMathDB, author can waste his own time but save readers' time.
+Also, explaining something in detail to the stupid computer can
+eliminate all mistakes that human eye may not notice.
+
+\newpage
+
+\section{Global Design}
+
+Version 1.0 should provide basic functionality for {\bf explaining}
+and {\bf viewing} existent content, along with {\bf adding} new
+content. These include:
+
+\begin{enumerate}
+\item
+{\bf Common}. All development must use the portable technologies and
+tools for compatibility, easier maintaining and development.
+\item
+{\bf Client side}. Basic client should be {\bf crossplatform}, has a
+{\bf WYSIWYG math editor}. Added documents should be sent and stored
+too, not only parsed and transformed versions. A web-application
+form sounds to be a good idea.
+\item
+{\bf Server side}. Server side should provide an open, documented
+API, to enable creating different clients for the same servers. The
+SOAP technology sounds to be a good idea. Structure should consider
+further features described below for future upgrades.
+\end{enumerate}
+
+Furter versions will point on:
+\begin{itemize}
+\item {\bf internationalization} -- distinguish different
+languages, along with different terminologies for the same fields.
+\item {\bf distributed server side} -- allow anyone to install their own
+clones of the database, work with them, and send changes to the our
+repository.
+\item {\bf versioning} -- track changes made to the database,
+allowing reverting changes made. Forking and merging will be a good
+point too.
+\item {\bf authorization} -- close some parts of database from public
+edit.
+\item {\bf heuristics} -- help editors to add new content by
+performing evaluating and computing like it done by a lot of
+computing environments like Mathematica\circledR.
+
+\end{itemize}
+
+\end{document}

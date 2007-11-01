@@ -3,21 +3,34 @@
 \title{Zermelo-Fraenkel set theory axioms}
 \author{Dzmitry Lazerka}
 
+\newenvironment{wikimathdb}[1]{$$}{$$}
+
 \begin{document}
+
+Define
+\begin{wikimathdb}{define}
+\in
+\end{wikimathdb}
+
+Define
+\begin{wikimathdb}{define}
+Sets
+\end{wikimathdb}
+
+Axioms:
 \begin{enumerate}
 \item
 Axiom of extensionality
-$$
-\forall x \forall y (\forall z (z \in x \Leftrightarrow z \in y)
-\Rightarrow x = y)
-$$
-
+\begin{wikimathdb}{let}
+\forall x \in Sets \forall y \in Sets (\forall z (z \in x
+\Leftrightarrow z \in y) \Rightarrow x = y)
+\end{wikimathdb}
 \item
 Axiom of regularity
-$$
-\forall x (\exists y (y \in x) \Rightarrow \exists y (y \in x \wedge
-\neg \exists z (z \in y \wedge z \in x)))
-$$
+\begin{wikimathdb}{let}
+\forall x \in Sets (\exists y (y \in x) \Rightarrow \exists y (y \in
+x \wedge \neg \exists z (z \in y \wedge z \in x)))
+\end{wikimathdb}
 
 \end{enumerate}
 \end{document}
