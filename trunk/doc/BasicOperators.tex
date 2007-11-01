@@ -8,6 +8,8 @@
 \newenvironment{wikimathdb}[1]{$$}{$$}
 
 
+There are listed some basics that are hardcoded and have special
+meaning.
 \begin{enumerate}
 
 \item
@@ -27,15 +29,14 @@
 
 \item
 \begin{wikimathdb}{define}
-\forall
+\neg
 \end{wikimathdb}
 
 \item
-Axiom of regularity
-$$
-\forall x (\exists y (y \in x) \Rightarrow \exists y (y \in x \wedge
-\neg \exists z (z \in y \wedge z \in x)))
-$$
+\begin{wikimathdb}{define}
+\vee
+\end{wikimathdb}
+
 
 \end{enumerate}
 \end{document}

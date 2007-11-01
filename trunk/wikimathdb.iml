@@ -33,7 +33,9 @@
           <root url="jar://$MODULE_DIR$/lib/gwt-windows-1.4.60/gwt-user.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/lib/gwt-windows-1.4.60/gwt-user.jar!/" />
+        </SOURCES>
       </library>
     </orderEntry>
     <orderEntry type="module-library">

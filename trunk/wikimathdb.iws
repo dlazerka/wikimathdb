@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project relativePaths="false" version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+    <option name="CUSTOM_SCOPE_NAME" value="Project Files" />
+  </component>
   <component name="CCaseConfig">
     <option name="checkoutReserved" value="false" />
     <option name="markExternalChangeAsUpToDate" value="true" />
@@ -15,40 +19,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\usr\work\self\wikimathdb\src\main\webapp\org\wikimathdb\web\gwt\Main.gwt.xml" afterPath="C:\usr\work\self\wikimathdb\src\main\java\org\wikimathdb\web\gwt\Main.gwt.xml" />
-      <change type="MOVED" beforePath="C:\usr\work\self\wikimathdb\src\main\webapp\org\wikimathdb\web\gwt\client\WikimathdbService.java" afterPath="$PROJECT_DIR$/src/main/java/org/wikimathdb/web/gwt/client/WikimathdbService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikimathdb.iws" afterPath="$PROJECT_DIR$/wikimathdb.iws" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/site" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/org/wikimathdb/web/gwt" afterPath="$PROJECT_DIR$/src/main/java/org/wikimathdb/web/gwt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/wikimathdb" />
-      <change type="MOVED" beforePath="C:\usr\work\self\wikimathdb\src\main\webapp\org\wikimathdb\web\gwt\public\Main.html" afterPath="C:\usr\work\self\wikimathdb\src\main\java\org\wikimathdb\web\gwt\public\Main.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/org/wikimathdb/web/gwt/public" afterPath="$PROJECT_DIR$/src/main/java/org/wikimathdb/web/gwt/public" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/wikimathdb/web/gwt/Main.gwt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/wikimathdb/web/gwt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/org/wikimathdb" afterPath="$PROJECT_DIR$/src/main/java/org/wikimathdb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/org/wikimathdb/web/gwt/client" afterPath="$PROJECT_DIR$/src/main/java/org/wikimathdb/web/gwt/client" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/org/wikimathdb/web" afterPath="$PROJECT_DIR$/src/main/java/org/wikimathdb/web" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/wikimathdb/web" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/TODO.TXT" />
-      <change type="MOVED" beforePath="C:\usr\work\self\wikimathdb\src\main\webapp\org\wikimathdb\web\gwt\client\Main.java" afterPath="$PROJECT_DIR$/src/main/java/org/wikimathdb/web/gwt/client/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/INSTALL.TXT" />
-      <change type="MOVED" beforePath="C:\usr\work\self\wikimathdb\src\main\webapp\org\wikimathdb\web\gwt\client\WikimathdbServiceAsync.java" afterPath="$PROJECT_DIR$/src/main/java/org/wikimathdb/web/gwt/client/WikimathdbServiceAsync.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/SetTheoryAxioms.tex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikimathdb.iml" afterPath="$PROJECT_DIR$/wikimathdb.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/wikimathdb/web/gwt/public" />
-      <change type="MOVED" beforePath="C:\usr\work\self\wikimathdb\src\main\webapp\org\wikimathdb\web\gwt\server\WikimathdbServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/wikimathdb/web/gwt/server/WikimathdbServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/org/wikimathdb/web/gwt/public/Main.html" />
-      <change type="DELETED" beforePath="C:\usr\work\self\wikimathdb\src\main\java\org\wikimathdb\web\gwt\public\Main.html" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/site/doc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikimathdb.ipr" afterPath="$PROJECT_DIR$/wikimathdb.ipr" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/LogicalOperatorsCompleteness.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org" />
-      <change type="DELETED" beforePath="C:\usr\work\self\wikimathdb\src\main\java\org\wikimathdb\web\gwt\Main.gwt.xml" afterPath="" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/BasicOperators.tex" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/org/wikimathdb/web/gwt/server" afterPath="$PROJECT_DIR$/src/main/java/org/wikimathdb/web/gwt/server" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/SetTheoryAxioms.tex" afterPath="$PROJECT_DIR$/doc/SetTheoryAxioms.tex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/org/wikimathdb/web/gwt/public/Main.html" afterPath="$PROJECT_DIR$/src/main/resources/org/wikimathdb/web/gwt/public/Main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikimathdb.iws" afterPath="$PROJECT_DIR$/wikimathdb.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/wikimathdb/web/gwt/client/Main.java" afterPath="$PROJECT_DIR$/src/main/java/org/wikimathdb/web/gwt/client/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/BasicOperators.tex" afterPath="$PROJECT_DIR$/doc/BasicOperators.tex" />
     </list>
     <ignored path="wikimathdb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -123,10 +99,20 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/wikimathdb/web/gwt/client/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="341" selection-end="341" vertical-scroll-proportion="0.18358532">
+            <state line="12" column="66" selection-start="469" selection-end="469" vertical-scroll-proportion="0.22030237">
               <folding>
-                <marker date="1192227252996" expanded="true" signature="249:338" placeholder="{...}" />
+                <element signature="imports" expanded="true" />
+                <marker date="1193701106492" expanded="true" signature="297:472" placeholder="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DockPanel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/gwt-windows-1.4.60/gwt-user.jar!/com/google/gwt/user/client/ui/DockPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="29" selection-start="1174" selection-end="1192" vertical-scroll-proportion="0.16522679">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -134,7 +120,7 @@
       <file leaf-file-name="WikimathdbServiceImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/wikimathdb/web/gwt/server/WikimathdbServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="60" selection-start="217" selection-end="217" vertical-scroll-proportion="0.07343412">
+            <state line="8" column="0" selection-start="255" selection-end="255" vertical-scroll-proportion="0.12850972">
               <folding />
             </state>
           </provider>
@@ -152,34 +138,40 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="93" selection-start="198" selection-end="198" vertical-scroll-proportion="0.01870187">
+            <state line="78" column="106" selection-start="2557" selection-end="2557" vertical-scroll-proportion="0.7612761">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cbe730b3_maven-v4_0_0.xsd" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/Users/dlazerka/.IntelliJIdea70/system/extResources/cbe730b3_maven-v4_0_0.xsd">
+      <file leaf-file-name="test.xhtml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/doc/test.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1001" column="33" selection-start="49668" selection-end="49677" vertical-scroll-proportion="0.2572707">
+            <state line="18" column="49" selection-start="707" selection-end="707" vertical-scroll-proportion="0.3469388">
               <folding />
             </state>
           </provider>
+          <provider editor-type-id="HtmlPreview">
+            <state />
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="INSTALL.TXT" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/doc/INSTALL.TXT">
+      <file leaf-file-name="Main.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/org/wikimathdb/web/gwt/public/Main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="20" selection-start="56" selection-end="56" vertical-scroll-proportion="0.01835853">
+            <state line="5" column="54" selection-start="180" selection-end="180" vertical-scroll-proportion="0.09637188">
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="HtmlPreview">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="profiles.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/profiles.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="21" selection-start="735" selection-end="735" vertical-scroll-proportion="0.5423542">
+            <state line="22" column="49" selection-start="479" selection-end="479" vertical-scroll-proportion="0.41144115">
               <folding />
             </state>
           </provider>
@@ -297,10 +289,6 @@
           <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\test" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
@@ -321,32 +309,6 @@
         </PATH_ELEMENT>
         <PATH_ELEMENT>
           <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="wikimathdb" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="wikimathdb" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\site" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -414,23 +376,27 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\java" />
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\resources" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\java\org" />
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\resources\org" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\java\org\wikimathdb" />
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\resources\org\wikimathdb" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\java\org\wikimathdb\web" />
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\resources\org\wikimathdb\web" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\java\org\wikimathdb\web\gwt" />
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\resources\org\wikimathdb\web\gwt" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\resources\org\wikimathdb\web\gwt\public" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -472,6 +438,7 @@
     </navigator>
   </component>
   <component name="PropertiesComponent">
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="TEMP_MODULE_EXPLODED_DIR_FOR_wikimathdb/web/Web" value="C:\Users\dlazerka\AppData\Local\Temp\webExplodedDir45327tmp" />
@@ -482,13 +449,6 @@
     <property name="TEMP_MODULE_EXPLODED_DIR_FOR_wikimathdb/web/Web3" value="C:\Users\dlazerka\AppData\Local\Temp\webExplodedDir45328tmp" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit" enabled="false" merge="false">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -520,6 +480,13 @@
       <option name="VM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application" enabled="false" merge="false">
       <option name="MAIN_CLASS_NAME" />
@@ -588,27 +555,27 @@
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="7" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923076" order="7" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292357" order="0" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="1" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="14" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="6" />
-      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
-      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
+      <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="7" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923076" order="9" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="4" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="1" />
-      <window_info id="Maven projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
+      <window_info id="Maven projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="5" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="11" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="2" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="2" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="0" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" order="4" />
-      <window_info id="TCPMON" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="3" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
+      <window_info id="TCPMON" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="6" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="13" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
-      <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="8" />
-      <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" order="8" />
+      <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="10" />
+      <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" order="12" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" order="0" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="2" />
       <window_info id="EJB" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" order="3" />
@@ -682,28 +649,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/org/wikimathdb/web/gwt/public/Main.html">
+    <entry file="jar://$PROJECT_DIR$/lib/gwt-windows-1.4.60/gwt-user.jar!/com/google/gwt/user/User.gwt.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="6" selection-start="506" selection-end="506" vertical-scroll-proportion="0.3469388">
+        <state line="19" column="0" selection-start="821" selection-end="821" vertical-scroll-proportion="0.35533553">
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="HtmlPreview">
-        <state />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/INSTALL.TXT">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="20" selection-start="56" selection-end="56" vertical-scroll-proportion="0.01835853">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wikimathdb/web/gwt/client/Main.java">
+    <entry file="file://C:/Users/dlazerka/.IntelliJIdea70/system/extResources/cbe730b3_maven-v4_0_0.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="341" selection-end="341" vertical-scroll-proportion="0.18358532">
-          <folding>
-            <marker date="1192227252996" expanded="true" signature="249:338" placeholder="{...}" />
-          </folding>
+        <state line="1001" column="33" selection-start="49668" selection-end="49677" vertical-scroll-proportion="0.2572707">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/BasicOperators.tex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="211" selection-end="211" vertical-scroll-proportion="0.4548495">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/wikimathdb/web/gwt/server/WikimathdbServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="60" selection-start="217" selection-end="217" vertical-scroll-proportion="0.07343412">
+        <state line="8" column="0" selection-start="255" selection-end="255" vertical-scroll-proportion="0.12850972">
           <folding />
         </state>
       </provider>
@@ -711,6 +687,20 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="4" selection-start="779" selection-end="779" vertical-scroll-proportion="0.5236524">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="49" selection-start="479" selection-end="479" vertical-scroll-proportion="0.41144115">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/TODO.TXT">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="2" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -729,17 +719,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/doc/TODO.TXT">
+    <entry file="jar://$PROJECT_DIR$/lib/gwt-windows-1.4.60/gwt-user.jar!/com/google/gwt/user/client/ui/Panel.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="2" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0">
+        <state line="7" column="11" selection-start="296" selection-end="296" vertical-scroll-proportion="0.17056856">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/gwt-windows-1.4.60/gwt-user.jar!/com/google/gwt/user/User.gwt.xml">
+    <entry file="jar://$PROJECT_DIR$/lib/gwt-windows-1.4.60/gwt-user.jar!/com/google/gwt/user/client/ui/Panel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="821" selection-end="821" vertical-scroll-proportion="0.35533553">
+        <state line="64" column="14" selection-start="2737" selection-end="2737" vertical-scroll-proportion="0.33277592">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/gwt-windows-1.4.60/gwt-user.jar!/com/google/gwt/user/client/ui/DockPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="29" selection-start="1174" selection-end="1192" vertical-scroll-proportion="0.16522679">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/wikimathdb/web/gwt/client/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="66" selection-start="469" selection-end="469" vertical-scroll-proportion="0.22030237">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1193701106492" expanded="true" signature="297:472" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -750,32 +757,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profiles.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/org/wikimathdb/web/gwt/public/Main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="21" selection-start="735" selection-end="735" vertical-scroll-proportion="0.5423542">
+        <state line="5" column="54" selection-start="180" selection-end="180" vertical-scroll-proportion="0.09637188">
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="HtmlPreview">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="93" selection-start="198" selection-end="198" vertical-scroll-proportion="0.01870187">
+        <state line="78" column="106" selection-start="2557" selection-end="2557" vertical-scroll-proportion="0.7612761">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Users/dlazerka/.IntelliJIdea70/system/extResources/cbe730b3_maven-v4_0_0.xsd">
+    <entry file="file://$PROJECT_DIR$/doc/test.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1001" column="33" selection-start="49668" selection-end="49677" vertical-scroll-proportion="0.2572707">
+        <state line="18" column="49" selection-start="707" selection-end="707" vertical-scroll-proportion="0.3469388">
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/INSTALL.TXT">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="20" selection-start="56" selection-end="56" vertical-scroll-proportion="0.01835853">
-          <folding />
-        </state>
+      <provider editor-type-id="HtmlPreview">
+        <state />
       </provider>
     </entry>
   </component>
