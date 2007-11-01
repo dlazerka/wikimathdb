@@ -2,3 +2,4 @@ To install project for development:
 1 Install the Maven 2.
 2 Step into the "/lib" directory and execute the "jta" command there.
 3 Now you can execute your mvn tasks like "mvn package".
+4 Install MathML fonts for Firefox: http://www.mozilla.org/projects/mathml/fonts/ in particular http://web.mit.edu/atticus/www/mathml/mit-mathml-fonts-1.0-fc1.msi for win.
