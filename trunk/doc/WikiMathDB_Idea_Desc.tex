@@ -107,7 +107,7 @@ characteristic functions:\\
 
 {\bf Given}: Random variable $\xi$ has the Couchy distribution
 $$
-p_{\xi}(x) = \frac{1}{\pi} \frac{a}{a^2 + x^2}
+p_{\xi}(x) = \frac{1}{\pi} \frac{a}{a^2 + x^2}.
 $$
 
 {\bf Problem}: Find the characteristic function for $\xi$.
@@ -116,7 +116,7 @@ $$
 $$
 f_{\xi}(t) = \frac{a}{\pi} \int_{-\infty}^\infty e^{itx}
 \frac{dt}{x^2 + a^2} = \frac{a}{\pi} \int_{-\infty}^\infty
-\frac{cos(t x)}{x^2 + a^2}dt
+\frac{cos(t x)}{x^2 + a^2}dt.
 $$
 
 Notice that $f_\xi(t)$ -- even function, so we only need to know its
@@ -125,19 +125,24 @@ equation, we'll get:
 
 $$
 f_{\xi}(t) = \frac{a}{\pi} \int_{-\infty}^\infty \frac{-x\ sin(t x)}
-{x^2 + a^2}dt \eqno{(1)}
+{x^2 + a^2}dt. \eqno{(1)}
 $$
 
 It is known from the math analysis that
 
-$$\int_{-\infty}^\infty \frac{sin(t x)}{x}dx = \pi
+$$
+\int_{-\infty}^\infty \frac{sin(t x)}{x}dx = \pi\;\;(t>0)
 \parbox{4em}{\hspace{1em}, so\hfill} a= \frac{a}{\pi}\int_{-\infty}^\infty \frac{sin(t
-x)}{x}dx\eqno{(2)}$$
-
+x)}{x}dx.\eqno{(2)}
+$$
 
 Summarizing (1) and (2), we'll get
+$$
+f_\xi' + a = \frac{a}{\pi}\int_{-\infty}^\infty \frac{a^2}{x^2 +
+a^2}\frac{sin(t x)}{x}dx.
+$$
 
-Let us differentiate both sides by $t$. We get $f''_\xi(t) = a^2
+Let us differentiate both sides by $t$. We get $f_\xi''(t) = a^2
 f_\xi(t)$. So, $f_\xi(t) = c_1 e^{at} + c_2 e^{-at}$, $t>0$. Because
 of $f_\xi(t)$ -- bounded function on $\mathbb{R}$, then $c_1 = 0$,
 and, basing on property $f_\xi(0) = 1$, get $c_2 = 1$. So, while $t
