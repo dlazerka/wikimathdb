@@ -1,0 +1,1 @@
+http://www.w3.org/Math/DTD/mathml2/xhtml-special.ent

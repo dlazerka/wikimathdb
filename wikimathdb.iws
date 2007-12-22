@@ -19,12 +19,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikimathdb.iml" afterPath="$PROJECT_DIR$/wikimathdb.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/SetTheoryAxioms.tex" afterPath="$PROJECT_DIR$/doc/SetTheoryAxioms.tex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/org/wikimathdb/web/gwt/public/Main.html" afterPath="$PROJECT_DIR$/src/main/resources/org/wikimathdb/web/gwt/public/Main.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/gwt-windows-1.4.60/swt-win32-3235.dll" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wikimathdb.iws" afterPath="$PROJECT_DIR$/wikimathdb.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/wikimathdb/web/gwt/client/Main.java" afterPath="$PROJECT_DIR$/src/main/java/org/wikimathdb/web/gwt/client/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/BasicOperators.tex" afterPath="$PROJECT_DIR$/doc/BasicOperators.tex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/WikiMathDB_Idea_Desc.tex" afterPath="$PROJECT_DIR$/doc/WikiMathDB_Idea_Desc.tex" />
+      <change type="MOVED" beforePath="C:\usr\work\self\wikimathdb\doc\test.xhtml" afterPath="$PROJECT_DIR$/doc/test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/gwt-windows-1.4.60/gwt-user.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/gwt-windows-1.4.60/gwt-ll.dll" />
     </list>
     <ignored path="wikimathdb.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,9 +100,8 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/wikimathdb/web/gwt/client/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="66" selection-start="469" selection-end="469" vertical-scroll-proportion="0.22030237">
+            <state line="12" column="66" selection-start="469" selection-end="469" vertical-scroll-proportion="0.16522679">
               <folding>
-                <element signature="imports" expanded="true" />
                 <marker date="1193701106492" expanded="true" signature="297:472" placeholder="{...}" />
               </folding>
             </state>
@@ -111,7 +111,7 @@
       <file leaf-file-name="DockPanel.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/lib/gwt-windows-1.4.60/gwt-user.jar!/com/google/gwt/user/client/ui/DockPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="29" selection-start="1174" selection-end="1192" vertical-scroll-proportion="0.16522679">
+            <state line="91" column="24" selection-start="2635" selection-end="2635" vertical-scroll-proportion="0.01835853">
               <folding />
             </state>
           </provider>
@@ -144,36 +144,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.xhtml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/doc/test.xhtml">
+      <file leaf-file-name="test.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/doc/test.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="49" selection-start="707" selection-end="707" vertical-scroll-proportion="0.3469388">
+            <state line="8" column="59" selection-start="281" selection-end="281" vertical-scroll-proportion="0.14961496">
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="HtmlPreview">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Main.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/org/wikimathdb/web/gwt/public/Main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="54" selection-start="180" selection-end="180" vertical-scroll-proportion="0.09637188">
+            <state line="13" column="34" selection-start="459" selection-end="459" vertical-scroll-proportion="0.2505669">
               <folding />
             </state>
           </provider>
           <provider editor-type-id="HtmlPreview">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profiles.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/profiles.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="49" selection-start="479" selection-end="479" vertical-scroll-proportion="0.41144115">
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -257,6 +245,192 @@
           <option name="myItemId" value="wikimathdb" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
         </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Libraries" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.LibraryGroupNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="wikimathdb" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="wikimathdb" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Libraries" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.LibraryGroupNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="devel" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\lib\gwt-windows-1.4.60\gwt-user.jar" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="wikimathdb" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="wikimathdb" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Libraries" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.LibraryGroupNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="devel" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\lib\gwt-windows-1.4.60\gwt-user.jar" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\lib\gwt-windows-1.4.60\gwt-user.jar!\com" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\lib\gwt-windows-1.4.60\gwt-user.jar!\com\google" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\lib\gwt-windows-1.4.60\gwt-user.jar!\com\google\gwt" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="wikimathdb" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="wikimathdb" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Libraries" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.LibraryGroupNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="devel" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\lib\gwt-windows-1.4.60\gwt-user.jar" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\lib\gwt-windows-1.4.60\gwt-user.jar!\com" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\lib\gwt-windows-1.4.60\gwt-user.jar!\com\google" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\lib\gwt-windows-1.4.60\gwt-user.jar!\com\google\gwt" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\lib\gwt-windows-1.4.60\gwt-user.jar!\com\google\gwt\user" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="wikimathdb" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="wikimathdb" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Libraries" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.LibraryGroupNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="devel" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\lib\gwt-windows-1.4.60\gwt-user.jar" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\lib\gwt-windows-1.4.60\gwt-user.jar!\com" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\lib\gwt-windows-1.4.60\gwt-user.jar!\com\google" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\lib\gwt-windows-1.4.60\gwt-user.jar!\com\google\gwt" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\lib\gwt-windows-1.4.60\gwt-user.jar!\com\google\gwt\user" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\lib\gwt-windows-1.4.60\gwt-user.jar!\com\google\gwt\user\client" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="wikimathdb" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="wikimathdb" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Libraries" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.LibraryGroupNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="devel" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\lib\gwt-windows-1.4.60\gwt-user.jar" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\lib\gwt-windows-1.4.60\gwt-user.jar!\com" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\lib\gwt-windows-1.4.60\gwt-user.jar!\com\google" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\lib\gwt-windows-1.4.60\gwt-user.jar!\com\google\gwt" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\lib\gwt-windows-1.4.60\gwt-user.jar!\com\google\gwt\user" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\lib\gwt-windows-1.4.60\gwt-user.jar!\com\google\gwt\user\client" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\lib\gwt-windows-1.4.60\gwt-user.jar!\com\google\gwt\user\client\ui" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
@@ -287,6 +461,62 @@
         </PATH_ELEMENT>
         <PATH_ELEMENT>
           <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="wikimathdb" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="wikimathdb" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\webapp" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\webapp\WEB-INF" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="wikimathdb" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="wikimathdb" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\webapp" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -414,6 +644,140 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\java\org" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\java\org\wikimathdb" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\java\org\wikimathdb\web" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\java\org\wikimathdb\web\gwt" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\java\org\wikimathdb\web\gwt\server" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="wikimathdb" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="wikimathdb" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\java\org" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\java\org\wikimathdb" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\java\org\wikimathdb\web" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\java\org\wikimathdb\web\gwt" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="wikimathdb" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="wikimathdb" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\java" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\java\org" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\java\org\wikimathdb" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\java\org\wikimathdb\web" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\java\org\wikimathdb\web\gwt" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\src\main\java\org\wikimathdb\web\gwt\client" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="wikimathdb" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="wikimathdb" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
           <option name="myItemId" value="PsiDirectory:C:\usr\work\self\wikimathdb\doc" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
@@ -432,8 +796,8 @@
       <hideEmptyPackages ProjectPane="false" />
       <abbreviatePackageNames />
       <showStructure PackagesPane="false" ProjectPane="false" />
-      <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollToSource ProjectPane="false" />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
     </navigator>
   </component>
@@ -677,6 +1041,57 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/gwt-windows-1.4.60/gwt-user.jar!/com/google/gwt/user/client/ui/Panel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="11" selection-start="296" selection-end="296" vertical-scroll-proportion="0.17056856">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/gwt-windows-1.4.60/gwt-user.jar!/com/google/gwt/user/client/ui/Panel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="14" selection-start="2737" selection-end="2737" vertical-scroll-proportion="0.33277592">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/doc/xhtml-math11-f.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="316" column="32" selection-start="9859" selection-end="9859" vertical-scroll-proportion="0.01870187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/profiles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="23" selection-start="676" selection-end="682" vertical-scroll-proportion="0.5236524">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/org/wikimathdb/web/gwt/Main.gwt.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="41" selection-start="48" selection-end="48" vertical-scroll-proportion="0.03740374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/wikimathdb/web/gwt/client/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="66" selection-start="469" selection-end="469" vertical-scroll-proportion="0.16522679">
+          <folding>
+            <marker date="1193701106492" expanded="true" signature="297:472" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/gwt-windows-1.4.60/gwt-user.jar!/com/google/gwt/user/client/ui/DockPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="24" selection-start="2635" selection-end="2635" vertical-scroll-proportion="0.01835853">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/wikimathdb/web/gwt/server/WikimathdbServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="255" selection-end="255" vertical-scroll-proportion="0.12850972">
@@ -691,9 +1106,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/profiles.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="49" selection-start="479" selection-end="479" vertical-scroll-proportion="0.41144115">
+        <state line="78" column="106" selection-start="2557" selection-end="2557" vertical-scroll-proportion="0.7612761">
           <folding />
         </state>
       </provider>
@@ -719,47 +1134,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/gwt-windows-1.4.60/gwt-user.jar!/com/google/gwt/user/client/ui/Panel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="11" selection-start="296" selection-end="296" vertical-scroll-proportion="0.17056856">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/gwt-windows-1.4.60/gwt-user.jar!/com/google/gwt/user/client/ui/Panel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="14" selection-start="2737" selection-end="2737" vertical-scroll-proportion="0.33277592">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/gwt-windows-1.4.60/gwt-user.jar!/com/google/gwt/user/client/ui/DockPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="29" selection-start="1174" selection-end="1192" vertical-scroll-proportion="0.16522679">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wikimathdb/web/gwt/client/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="66" selection-start="469" selection-end="469" vertical-scroll-proportion="0.22030237">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1193701106492" expanded="true" signature="297:472" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/org/wikimathdb/web/gwt/Main.gwt.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="41" selection-start="48" selection-end="48" vertical-scroll-proportion="0.03740374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/org/wikimathdb/web/gwt/public/Main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="54" selection-start="180" selection-end="180" vertical-scroll-proportion="0.09637188">
+        <state line="13" column="34" selection-start="459" selection-end="459" vertical-scroll-proportion="0.2505669">
           <folding />
         </state>
       </provider>
@@ -767,16 +1144,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/doc/test.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="106" selection-start="2557" selection-end="2557" vertical-scroll-proportion="0.7612761">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/test.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="49" selection-start="707" selection-end="707" vertical-scroll-proportion="0.3469388">
+        <state line="8" column="59" selection-start="281" selection-end="281" vertical-scroll-proportion="0.14961496">
           <folding />
         </state>
       </provider>

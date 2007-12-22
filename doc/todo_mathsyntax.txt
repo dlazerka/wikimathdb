@@ -1,0 +1,35 @@
+quantors:
+let(P) // add a property "consistent" to predicate P (fails if there is property "inconsistent")
+fe model from model // A is a set (element of sets
+fe model a set
+ex set in a set
+
+property:
+elem(Model) // A is a set
+elem(Set) // a is an element of A
+
+define, let, fe
+
+commands:
+define (name) // bring name to current namespace
+let(predicate) // add property 'consistent' to the predicate
+
+test // "define namespace test"
+{// "set current namespace to test"
+	define 'Sets' // bring 'Sets' to the test namespace
+    define ex 'A' // bring 'A' to the 'test' namespace
+    let ('A' from 'Sets') // add property 'consistent' to the predicate "elem('A', 'Sets')"
+
+
+    let fe 'X','Y' from 'Sets':
+            fe 'Z' from 'Sets' :
+                Z elem X <=> Z elem Y
+            => X = Y
+
+    // add property 'consistent' to the predicate of ('X', 'Y')
+    // "and(elem('X', 'Sets'), elem('Y', 'Sets'), conseq(and(elem('Z', 'Sets'), eqelem('Z', 'X'), ))"
+}
+
+
+soc:
+jython
