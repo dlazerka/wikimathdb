@@ -1,0 +1,88 @@
+I have the year in thinking about the idea (without connection with the SoC). When the SoC has started I wrote proposal with the ide but I did not know is my idea acceptable by any mentor or not. And it was surprise to me to find your second SoC project idea is similar to my. I have found it a bit different with my, but it is even better. So, I'm sending my idea to you, though it is independent of yours. Of course, I would be glad to develop your idea, because, as I said, it is similar to my.
+
+There is a limit of 7500 characters, so the full text with better text decoration you can obtain at
+http://docs.google.com/Doc?id=dfq5kh98_46ftvj5m 
+--------------------------------------------------
+Contents:
+   1. About project idea.
+   2. About project implementation.
+   3. About me. 
+
+
+1. Project idea.
+The goal of the WikiMath project is to build an explainer math database. For example something like:
+let B subset of A
+let b from B
+then b from A
+If one ask "why b is from A?" he will get the answer "because 1) and 2)". If one ask "what is subset of?", he will get the answer "for all x from B => x from A". And so on, to the axioms. The database have public access and everyone can add new contents to the existent axioms and create his own axioms. The content is grouped to various groups, for example by field, by author, by university etc. For one content can be several view-modes, for example by language, by preferred style.
+1.1. It is not the Artificial Intelligence or prove-machine. WikiMath is unable to solve problems or prove theorems. All conclusions must be chewed up and explained in detail to the system before it understand it. This will slow down the process of adding new content but this is needed for building proper references between conclusions. (but without minor evaluating it is unable to save conclusions. For example it should be clear if it is true for each element, it is true for a current one. So, there is need in some Evaluator which helps in minor conclusions (see impl)).
+1.2. It is an attempt to save all of the mathematical knowledge, to formalize mathematics, as it was attempted by David Hilbert in 192x, but David Hilbert wanted to build consistent mathematical tree. WikiMath saves inconsistent and unknown nodes too, every logic predicate that human mind can remember and no more.
+1.3. It is not just the collections of axioms and consequences, free text-picture contents can be stored also. Difference between usual math media-based materials is that the system is able to explain why the consequence is consistent (or inconsistent/unknown).
+
+2. Implementation details.
+WikiMath  =       Tree + Explainer + Front
+or
+WikiMath  =   Database + Evaluator + View
+like
+Consciousness = Memory + Intellect + Perception
+but Front also includes part of the memory: grouping things to various groups (by author, by field, etc).
+
+The database is going to be big (millions of nodes = atomic conclusions), but I am sure not really huge (billions of nodes).
+
+2.1. Tree/Database
+During architecture I investigated that it will be better to represent mathematical database in completely human-unreadable form, as a graph that can be topological-sorted. Human-readability will be achieved by view-modes. Actually, the Database part is not so comprehensive as its View part. Of course View part should be open-source too.
+At first it was difficult to model the most abstract thing as it is -- mathematics. I decided to hard-code a some logic and build other axiomatic theories on the logic. Open source license will allow an user to hard-code other logics and try to grow different axiomatic construction.
+
+Let Node to be a predicate in second-order logic (though Evaluator can translate it to first-order logic). Node can be consistent, inconsistent or unknown. For example:
+let a belongs to A
+means that
+predicate elem(a,A), or node {elem,a,A} is consistent.
+
+More comprehensive example -- the first axiom of ZFC:
+let fe(X,Y) {
+    '=>'(
+        and(
+            elem(X, Sets),
+            elem(Y, Sets),
+            fe(Z){
+                and(elem(Z, Sets), '<=>'(elem(Z, X), elem(Z, Y)))
+            }
+        ),
+        X = Y
+    )
+}
+means that a set is equal to another if they have the same elements.
+
+Pre-alpha version of database for this structure is:
+wikimath=# \d node
+                                  Table "public.node"
+   Column   |         Type          |                     Modifiers
+------------+-----------------------+---------------------------------------------------
+ id         | int                   | not null default nextval('node_id_seq'::regclass)
+ consistent | boolean               |
+Indexes:
+    "node_pkey" PRIMARY KEY, btree (id)
+
+wikimath=# \d arg
+         Table "public.arg"
+   Column    |   Type   | Modifiers
+-------------+----------+-----------
+ node_id     | bigint   | not null
+ arg_num     | smallint | not null
+ arg_node_id | bigint   | not null
+Indexes:
+    "node_arg_pkey" PRIMARY KEY, btree (node_id, arg_num)
+Check constraints:
+    "arg_check" CHECK (node_id > arg_node_id)
+Foreign-key constraints:
+    "arg_arg_node_id_fkey" FOREIGN KEY (arg_node_id) REFERENCES node(id) ON UPDATE CASCADE ON DELETE RESTRICT
+    "arg_node_id_fkey" FOREIGN KEY (node_id) REFERENCES node(id) ON UPDATE CASCADE ON DELETE CASCADE
+There arg_check provides topological-sortability.
+
+Some basic nodes should already exists, now I propose the next list:
+for each -- universal quantifier
+exists -- existential quantifier
+and -- logical and
+xor -- logical xor
+element of -- a predicate that mean nothing while the set concept is not defined yet.
+.... there is limit of 7500 characters, others is at http://docs.google.com/Doc?id=dfq5kh98_46ftvj5m 

@@ -1,1 +1,1 @@
-* Create maven local repository for GWT and JTA libs.
+* Create maven local repository for GWT and JTA libs. Consider scope=system

@@ -1,0 +1,10 @@
+basic quantors:
+let
+fe
+ex
+and
+xor
+elem
+
+A or B = (A xor B) xor (A and B)
+not B = 1 xor B
