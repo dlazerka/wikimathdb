@@ -1,92 +1,116 @@
 \documentclass{article}
 \usepackage{amssymb,latexsym,amsmath}
+\usepackage[cp1251]{inputenc}
+\usepackage[english, russian]{babel}
+\usepackage{amssymb,latexsym,amsmath}
+\usepackage{oldlfont}
+\usepackage{amsfonts}
+\usepackage{multicol}
 
-\title {WikiMathDB Idea Description}
-\author{Dzmitry Lazerka}
+
+\title {WikiMathDB Описание}
+\author{Лазерко Дмитрий}
 \date{2007-11-01}
 
+\sloppy
 
 \begin{document}
 
 \maketitle
 
 
-\section{Introduction}
+\section{Введение}
 
-Idea of the WikiMathDB project was born while trying to understand a
-mathematical proof while lot of theories were involved and lot of
-"obvious" facts were omitted. Then I imagined: was there any way to
-store the proof so detailed, that even computer can understand it?
-The more I thought about it, the more I convinced of technical
-possibility to build a computer system which goal is to contain
-proofs in very detailed form; so detailed, that even computer can
-check it (there already are such systems, see below). So, everyone
-can view at any proof in more detail, as detailed as they need. And
-allow everyone to add his own theories without interference with
-others. And provide possibility of different representations on one
-proof for various languages and terminologies. So, the idea was born.\\
+\Rus
 
-Who needs in the WikiMathDB system? What is its the purpose?
+Идея проекта WikiMathDB родилась в попытках понять очередное
+математическое доказательство, в котором были пропущены многие
+"очевидные" факты. Тогда я задумался: есть ли какой-нибудь способ
+хранить доказательство настолько детализированно, что даже компьютер
+смог бы его понять? Чем больше я об этом думал, тем более я
+убеждался в технической возможности построения такой компьютеной
+системы, которая бы содержала доказательства в очень подробной
+форме, настолько подробной, что даже компьютер смог бы проверить его
+(и такие системы уже существуют, об этом ниже). Так, чтобы каждый
+смог взглянуть на любое доказательство более детально, насколько это
+ему необходимо. И позволить каждому добавлять его собственные
+теории, не мешая остальным. И предоставить возможность различных
+представлений одного доказательства для разных языков и
+терминологий. Итак, идея родилась.
+\\
 
-At first, for educational purposes: if a student cannot understand
-something "obvious" or have just forgot a well-known thing, he
-always can look in the WikiMathDB for explanation. Also, teacher can
-add parts of his course to help students understand the course. A
-lot of universities distribute synopses and/or their video
-recordings, the system will be also useful to avoid mistakes and
-better lectures understanding.
+Кто нуждается в системе WikiMathDB? Какова её цель?
 
-At second, for science purposes: one can always have the most
-up-to-date version of his work, which surely does not contain
-mistakes. This will take away a need in continuously distributing
-and verbose explanation the work to other mathematicians. Of course,
-the system will not replace science magazines and conferences, but
-will appreciably help them.\\
+Во-первых, для образовательных целей: если студент не может понять
+что-то "очевидное" или просто забыл известную вещ, он всегда может
+глянуть в WikiMathDB для объяснения. Также, преподаватель может
+добавлять части его курса в систему чтобы помочь студентам понять
+этот курс. Многие университеты распространяют конспекты лекций и/или
+их видеозаписи, в данном случае система также будет полезна для
+исключения ошибок и лучшего понимания лекций.
+
+Во-вторых, для научных целей: можно будет всегда иметь наиболее
+свежую версию какой-либо математической работы заведомо не
+содержащую ошибок. Это позволит избегать постоянного распространения
+и подробного объяснения работы другим математикам. Система, конечно,
+не заменит научных журналов и конференций, но существенно им
+поможет.
+\\
+
+Еще один искусственный интеллект? Доказыватель теорем?
+
+Нет. Система проектируется как База Данных. Существует широкий выбор
+вычислительных систем, автоматических доказывателей теорем. Система
+WikiMathDB не одна из них. Обязанности системы WikiMathDB -- это
+хранение и объяснение, но не вычисление. Также, существует множество
+электронных математических библиотек --  система WikiMathDB
+отличается от них тем, что поддерживает логическую
+непротиворечивость, в том смысле, в котором его понимает автор.
+Наиболее близким по смыслу к проекту WikiMathDB является проект
+Mizar (Mizar project, www.mizar.org), созданный в 1973 году и на
+данный момент содержащий более 8000 математических определений и
+45000 теорем. По сравнению с Mizar проектом, основным отличием
+WikiMathDB будет возможность работать не с компьютерным ASCII
+языком, а как с обычной графической статьей, типографически
+оформленной (так, как выглядит статья, например, в DVI формате).
+Также, общее теоретическое описание системы и ее детальное
+обсуждение имело место в проекте QED
+(http://www-unix.mcs.anl.gov/qed), где была озвучена идея создания
+унифицированного компьютеризованного репозитория математического
+знания.
 
 
-Yet another artificial intelligence? A theorem prover?
-
-No. The system aims to be a DataBase. There is a wide range of
-computing tools, automated theorem provers. WikiMathDB is not one of
-them, its responsibilities is storing and explaining, but not
-evaluation. There also is a huge number of computer-aided math
-libraries, WikiMathDB differs from them by containing the logical
-consistency, in the way how an author understands it. The most
-closest system is a Mizar project (www.mizar.org), born in 1973 and
-is now containing more than 8000 math definitions and 45000
-theorems. WikiMathDB mainly differs from the Mizar project by
-allowing to work with usual typographic-processed article (like in
-DVI format), not with an ASCII computer language. Moreover, a common
-theoretical description and discussion has taken place in a QED
-project (http://www-unix.mcs.anl.gov/qed), where the idea of unified
-computerized mathematical knowledge repository was born.
 
 \newpage
 
-\section{Examples}
+\section{Примеры}
 
-{\bf Example 1 (elementary)}.\\
-
-\hrule\bigskip
-
-{\bf Given}: $B \subset A, b \in B$, so $b \in A$.\\
+{\bf Пример 1 (элементаный)}.\\
 
 \hrule\bigskip
 
-Why "so"? Maybe in some theories it is not true? Here you can ask
-the WikiMathDB to explain you why (by, for example, ctrl-clicking on
-the word "so"). And get the answer based on definition of the subset
-operator:
+{\bf Дано}: $B \subset A, b \in B$, следовательно $b \in A$.\\
+
+\hrule\bigskip
+
+Почему "следовательно"? Может быть в некоторых теориях это не верно?
+Здесь вы можете указать системе WikiMathDB объяснить, почему это
+верно (например, контрол-кликнув на слово "следовательно"). И
+получить ответ, основанный на определении оператора подмножества:
 $$(B \subset A) \Leftrightarrow (\forall b \in B \Rightarrow b \in
-A)$$ This answer is an interpretation of already inputted definition
-of \textit{subset}:
+A)$$ Этот ответ является интерпретацией уже занесенного в базу
+WikiMathDB определения \textit{подмножества}:
 $$\forall X,Y - sets \Rightarrow [X \subset Y) \Leftrightarrow
-(\forall x \in X \Rightarrow x \in Y)]$$ Where $B$ can be placed on
-the place of $X$, $A$ --- on the place of $Y$, and $b$ --- on the
-place of $x$.
+(\forall x \in X \Rightarrow x \in Y)]$$ Где $B$ может быть
+подставлено вместо $X$, $A$ --- вместо $Y$, и $b$ --- вместо $x$.
+
+
+\Eng
+
+
 \\
 
-{\bf Example 2}.\\
+{\bf Пример 2}.\\
 
 \hrule\bigskip
 
@@ -110,10 +134,10 @@ the definition of the spanning set itself.
 But, you should notice that here we omitted the field in which
 "basis" is defining: subspace and vector space. Because "basis" will
 be used if form "basis of the subspace M in vector space V".
-Omitting these details is not allowed in the WikiMathDB. The
-details like that make possible to fully understand matter by
-computer. So, writing a definition like for "basis", author should
-consider these details while adding anything to the WikiMathDB.
+Omitting these details is not allowed in the WikiMathDB. The details
+like that make possible to fully understand matter by computer. So,
+writing a definition like for "basis", author should consider these
+details while adding anything to the WikiMathDB.
 \\
 \newpage
 

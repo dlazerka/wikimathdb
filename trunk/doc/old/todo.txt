@@ -1,0 +1,41 @@
+// set namespace to 'root'
+namespace test // define namespace 'test'
+{// set current namespace to 'test' and import all nodes from
+	let 'Sets' // bring 'Sets' to the 'test' namespace, add consistent node {elem('Sets', 'Model')}
+	let 'A' // bring 'A' to the 'test' namespace, add consistent node {elem('A', 'Sets')}
+
+
+	{// set namespace to 'test.1'
+		let 'B' from 'A' // 'A' var has been imported from 'test' namespace, but 'B' var will not be visible there
+	}
+
+	// below vars are not quoted
+
+	// simple example
+	{
+		let B from Sets
+		let fe(A,B) {imply(A,B) <=> or(not(A),and(A,B))}
+		let fe(a) {(a from A) => (a from B)}
+//          add consistent node {
+//				fe(a, or(
+//					not(elem(a,A)), and(elem(a,A), elem(a,B))
+//				)
+//			}
+//          because 'X=>Y' is equivalent of 'or(not(X), and(X,Y))'
+
+		let a from A
+		a from B // here we are meeting Explainer, it checks several (maybe a lot, but not all) nodes
+//          it evaluates previous statement
+	}
+
+
+	let fe (X,Y) {(X from Sets and Y from Sets) => (
+		fe Z from Sets and (
+			(Z elem X <=> Z elem Y) => X = Y
+		)
+	}
+//      add consistent node
+//      fe(X,Y) { '=>'(and(elem(X, Sets), elem(Y, Sets), fe(Z){and(elem(Z, Sets), '<=>'(elem(Z, X), elem(Z, Y)))}), X=Y)}
+
+soc:
+jython
