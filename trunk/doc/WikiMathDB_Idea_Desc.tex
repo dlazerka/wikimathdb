@@ -15,9 +15,9 @@
 
 Idea of the WikiMathDB project was born while trying to understand a
 mathematical proof while lot of theories were involved and lot of
-"obvious" facts were omitted. Then I imagined: was there any way to
-store the proof so detailed, that even computer can understand it?
-The more I thought about it, the more I convinced of technical
+``obvious'' facts were omitted. Then I imagined: was there any way
+to store the proof so detailed, that even computer can understand
+it? The more I thought about it, the more I convinced of technical
 possibility to build a computer system which goal is to contain
 proofs in very detailed form; so detailed, that even computer can
 check it (there already are such systems, see below). So, everyone
@@ -29,7 +29,7 @@ proof for various languages and terminologies. So, the idea was born.\\
 Who needs in the WikiMathDB system? What is its the purpose?
 
 At first, for educational purposes: if a student cannot understand
-something "obvious" or have just forgot a well-known thing, he
+something ``obvious ''or have just forgot a well-known thing, he
 always can look in the WikiMathDB for explanation. Also, teacher can
 add parts of his course to help students understand the course. A
 lot of universities distribute synopses and/or their video
@@ -73,10 +73,10 @@ computerized mathematical knowledge repository was born.
 
 \hrule\bigskip
 
-Why "so"? Maybe in some theories it is not true? Here you can ask
+Why ``so''? Maybe in some theories it is not true? Here you can ask
 the WikiMathDB to explain you why (by, for example, ctrl-clicking on
-the word "so"). And get the answer based on definition of the subset
-operator:
+the word ``so''). And get the answer based on definition of the
+subset operator:
 $$(B \subset A) \Leftrightarrow (\forall b \in B \Rightarrow b \in
 A)$$ This answer is an interpretation of already inputted definition
 of \textit{subset}:
@@ -90,30 +90,35 @@ place of $x$.
 
 \hrule\bigskip
 
-{\bf Given}: \textbf{Basis} is a \textit{linearly
+{\bf Given}: \textbf{Linear basis} is a \textit{linearly
 independent} \textit{spanning set}.\\
 
 \hrule\bigskip
 
 Having read this, one may want to know, what do they mean while
-talking "linearly independent" and "spanning set"? By ctrl-clicking
-on these terms he can get the definitions of the terms. Here
-WikiMathDB can make an easy translation from English to math: "is\
-a"$\ \rightarrow\; "\in"$, so, this definition will be in form:
+talking ``linearly independent ''and ``spanning set''? By
+ctrl-clicking on these terms he can get the definitions of the
+terms. Here WikiMathDB can make an easy translation from English to
+math: ``is\ a''$\ \rightarrow\; ``\in''$, so, this definition will
+be in form:
 $$
 \forall b \in B \Rightarrow (b \in L \wedge b \in S)
 $$
-Where L is a set of linearly independent vector sets, and S --- of
-spanning sets. Asking the system what does spanning set mean gives
-the definition of the spanning set itself.
+Where L is a set of linearly independent vector sets, and S --- a
+set of spanning sets. Asking the system what is ``L ''gives us a
+definition of a set of linearly independent vector sets.
 
 But, you should notice that here we omitted the field in which
-"basis" is defining: subspace and vector space. Because "basis" will
-be used if form "basis of the subspace M in vector space V".
-Omitting these details is not allowed in the WikiMathDB. The
-details like that make possible to fully understand matter by
-computer. So, writing a definition like for "basis", author should
-consider these details while adding anything to the WikiMathDB.
+``basis ''is defining: subspace and vector space. Because ``basis''
+will be used if form ``basis of the subspace M in vector space V''.
+Omitting these details is not allowed in the WikiMathDB. The details
+like that make possible to fully understand matter by computer. So,
+writing a definition like for ``basis'', author has to consider
+these details while adding anything to the WikiMathDB. It is
+obvious, that there are a number of such details, and they slow down
+process of adding new data to the system significantly, but only
+this way allows to make data logically clear. And, as the Mizar
+project shows, it is solvable problem.
 \\
 \newpage
 
